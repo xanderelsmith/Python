@@ -1,0 +1,3 @@
+# Python
+
+my python journey
