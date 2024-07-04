@@ -7,3 +7,6 @@ if(coin==0) :
 
 else:
     print('Tails')
+
+
+# check bankerroulette in challenge foldr
