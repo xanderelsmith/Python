@@ -5,7 +5,7 @@ line2 = ["⬜️","⬜️","️⬜️"]
 line3 = ["⬜️️","⬜️️","⬜️️"]
 map = [line1, line2, line3]
 print("Hiding your treasure! X marks the spot.")
-position = input() # Where do you want to put the treasure?
+position = input('Where do you want to put the treasure?') 
 # 🚨 Don't change the code above 👆
 # Write your code below this row 👇
 
@@ -39,7 +39,7 @@ map = [line1, line2, line3]
 print("Hiding your treasure! X marks the spot.")
 position = input() # Where do you want to put the treasure?
 # Your code below
-letter = position[0].lower()
+letter = position[0].low                                er()
 abc = ["a", "b", "c"]
 letter_index = abc.index(letter)
 number_index = int(position[1]) - 1
