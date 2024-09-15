@@ -17,14 +17,14 @@ while (placeholder!=chosenword):
     placeholder=''
     guess=input('Guess a letter:\t').lower()
     # TODO-2 - Change the for loop so that you keep the previous correct     
-    for textindex in chosenword:
-        text = textindex             
+    for text in chosenword:
+                      
         if guess==text:
             if (not answerwordlist.__contains__(guess)):
                 answerwordlist.append(guess)
             
             placeholder+=guess
-        elif(answerwordlist.__contains__(text)):
+        elif(text in answerwordlist):
             placeholder+=text           
         else:
             placeholder+='_'
