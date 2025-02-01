@@ -1,6 +1,5 @@
 import random
-word_list=["aadvark","crocodile","fish"]
-
+from wordlist import word_list
 answerwordlist=[]
 chosenword = random.choice(word_list).lower()
 # print(chosenword)
