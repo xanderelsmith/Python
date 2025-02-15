@@ -1,0 +1,5 @@
+print('Welcome to the scret a1unction program')
+name =input('What is your name?:\t')
+bid = input('What\'s your bid?: \t$')
+response= input("Are there any other bidders? Type 'yes' or 'no' ")
+response= input('')
