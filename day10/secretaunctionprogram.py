@@ -4,14 +4,18 @@ biddingDocuments={}
 
 def getHighestBidder(biddingDocuments):
     for bids in biddingDocuments:
-        print(bids)
+        
         winner=''
         currentBid=0
         if currentBid < biddingDocuments[bids]:
             currentBid=biddingDocuments[bids]
-            print(winner,"winner")
+           
             winner=bids
         return winner
+    
+    # or
+    # return max(biddingDocuments, key = biddingDocuments.get)
+     
             
     
     
