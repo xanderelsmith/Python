@@ -63,7 +63,7 @@ def playGame():
         if userScore==0 or computer_score==0 or userScore>=21:
             isGameOver=True 
         else:
-            usershouldeal = (input("Type 'y' to get another card,type 'n' to pass :\t")).lower()
+            usershouldeal = (input("Type 'y' to get another card,type 'n' to pass :")).lower()
             if usershouldeal=='y':
                 userCards.append(deal_card())            
             else:
@@ -78,6 +78,6 @@ def playGame():
     print(f'you dealt  a hand of {userScore} while computer, {computer_score}')
     compare( u_score=userScore,c_score=computer_score)
 
-while input("Do you want to play a game of BlackJack ,'y' or 'n'")=='y':
+while input("Do you want to play a game of BlackJack ,'y' or 'n':\t")=='y':
     print('\n'*23)
     playGame()
