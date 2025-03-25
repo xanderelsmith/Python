@@ -217,7 +217,7 @@ data = [
     },
     {
         'name': 'Maluma',
-        'follower__count': 90,
+        'follower_count': 90,
         'description': 'Musician',
         'country': 'Colombia'
     },
