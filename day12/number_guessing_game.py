@@ -15,17 +15,20 @@ else:
 selectedNumber=random.choice(range(1,100))
 guess=0
 while selectedNumber!=guess:
-    for data in range(0,selectedNumber):
-        print(f'You have {selectedLevel} attempts remaining to guess the number')
-        guess=int(input('Make a guess:\n'))
-        if guess==selectedNumber:
-            print('You guessed the number!')
-            break
-        elif guess>selectedNumber:
-            print('You selected a bigger number')
-            selectedLevel-=1
-        else:
-            print('you selected a smaller number')
-            selectedLevel-=1
+        for data in range(0,selectedNumber):
+            print(f'You have {selectedLevel} attempts remaining to guess the number')
+            guess=int(input('Make a guess:\n'))
+            if guess==selectedNumber:
+                print('You guessed the number!')
+                break
+            elif guess>selectedNumber:
+                print('You selected a bigger number')
+                selectedLevel-=1
+            else:
+                print('you selected a smaller number')
+                selectedLevel-=1  
+                  
+if selectedLevel>0:
+    print('GameOver')
     
    
