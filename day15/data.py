@@ -1,5 +1,5 @@
 MENU = {
-    'latte': {'ingredients': {
+    'latte': {'ingredi ents': {
         'water': 50,
         'coffee': 18,
         'milk': 0,

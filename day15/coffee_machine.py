@@ -33,7 +33,6 @@ def process_coins():
     return total
 
 
-print(resources)
 while isDispensing:
     selectedDrink = input(
         'What would you like? (espresso/latte/cappuccino)\t',).lower()
@@ -52,10 +51,12 @@ while isDispensing:
     elif selectedDrink != 'latte' and selectedDrink != 'cappuccino' and selectedDrink != 'espresso':
         print('Not a valid selection')
     elif money < MENU[selectedDrink]['cost']:
+        print(MENU[selectedDrink]['cost'])
         print("You dont have enough money. Type 'balance' to view balance")
+        money = process_coins()
         money = check_transaction_successfull(selectedDrink, money)
 
-        process_coins()
+       
 
     elif (MENU[selectedDrink]['ingredients']['water'] > water):
         print("You don't have enough water!")
