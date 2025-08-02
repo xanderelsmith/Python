@@ -29,6 +29,3 @@ while isGameInSession:
             
             
 screen.exitonclick()
-
-# a turtle is a 40 by 40 object
-# 300 -(40/2)=finish extent=230

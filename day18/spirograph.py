@@ -9,7 +9,7 @@ def generateRgbColor():
     b = random.randint(0, 255)
     return (r, g, b)
 
-def angelafunc(pen, generateRgbColor):
+def angelafunc(pen:t.Turtle, generateRgbColor):
     for _ in range(int(360/5)):
         pen.speed('fastest')
         pen.pencolor(generateRgbColor())
