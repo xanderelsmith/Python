@@ -14,14 +14,19 @@ All sections have a note.md file containing all i have learnt.
 Out of these are prominent projects i built 
 1. using turtle library to control screen
 ![Navigation turtle](day19/image.png)
-# day19
-![turtle race](day19/turtle.mp4)
-
+<h1>day19</h1>
+<p>
+    <video controls>
+        <source src="day19/turtle.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</p>
 Screen().setup sets the screen width and height
 
-
-# day22
-![ping pong](day22/day22.mp4)
-<video width="320" height="240" controls loop="" muted="" autoplay="">
-  <source src="https://github.com/xanderelsmith/Python/raw/refs/heads/main/day22/day22.mp4">
-</video>
+<h1>day22</h1>
+<p>
+    <video controls>
+        <source src="day22/day22.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</p>
