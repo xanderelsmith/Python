@@ -20,4 +20,3 @@ Screen().setup sets the screen width and height
 
 # day22
 ![ping pong](day22/day22.gif)
-[Watch video](https://github.com/xanderelsmith/Python/raw/refs/heads/main/day22/day22.mp4)
