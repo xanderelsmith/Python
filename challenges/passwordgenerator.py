@@ -27,14 +27,14 @@ password=''
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 
 for letter in range(nr_letters):
-    index=random.randint(0,nr_letters);
+    index=random.randint(0,nr_letters)
     password=password+letters[index]
 for symbol in range(nr_symbols):
-    index=random.randint(0,nr_letters);
+    index=random.randint(0,nr_letters)
     password=password+numbers[index]
 for number in range(nr_numbers):
-    index=random.randint(0,nr_letters);
+    index=random.randint(0,nr_letters)
     password=password+symbols[index]
-print(password)   
 
-print(va)
+print(f'your password could be {password}')
+
