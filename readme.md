@@ -24,9 +24,8 @@ Out of these are prominent projects i built
 Screen().setup sets the screen width and height
 
 <h1>day22</h1>
-<p>
-    <video controls>
-        <source src="day22/day22.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</p>
+
+<video width="640" height="360" controls>
+  <source src="day22/day22.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
