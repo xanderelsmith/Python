@@ -12,7 +12,7 @@ from
 
 All sections have a note.md file containing all i have learnt.
 Out of these are prominent projects i built 
-# day22
+# day19
  using turtle library to control screen  
 ![Navigation turtle](day19/turtle.gif)
 
