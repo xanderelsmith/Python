@@ -1,3 +1,4 @@
+import random
 from turtle import Turtle
 
 
@@ -11,6 +12,9 @@ class CarManager(Turtle):
         self.cars:list[Turtle]=[]
         for data in range(20):
             car=Turtle('square')
+            car.color(random.shuffle())
             car.shapesize(stretch_wid=2)
+            car.goto()
             self.cars.append(car)
+        
             
